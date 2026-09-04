@@ -1,0 +1,352 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kenyan Interior designer, Africans, edgy, landscape, glass art">
+<meta property="og:title" content="Mike.K.Williams">
+<meta property="og:description" content="Kenyan Interior Designer">
+<meta property="og:image" content="https://yoursite.com/previewjpg">
+<title>Mark.K.Williams</title>
+<style>
+:root{
+--bg:#111111;
+--surface:#A9472B;
+--text:#E8DFCE;
+--text-dim:#B8AFA4;
+--gold:#C58B2A;
+--green:#536B2F;
+--line:#B96543;
+--ease:cubic-bezier(0.22,1,0.36,1);
+--wine:#5A1828;
+--night:#20294A;
+}
+body{
+background:var(--bg);
+color:var(--text);
+padding:20px 0px;
+}
+nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:sticky;
+top:0;
+z-index:100;
+backdrop-filter:blur(16px) saturate(1.6);
+background:rgba(255,255,255,0);
+-webkit-backdrop-filter:blur(16px) saturate(1.6);
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+}
+a{
+text-decoration:none;
+font-size:22px;
+padding:5px;
+color:var(--text);
+}
+p{
+font-family:"Segoe UI Light";
+font-weight:200;
+font-size:19px;
+}
+section{
+border-bottom:1px solid var(--line);
+border-bottom-left-radius:20px;
+padding:10px 0;
+border-top:1px solid var(--line);
+border-top-left-radius:20px;
+background:rgba(20,20,20,0.6);
+box-shadow: 0 12px 40px 0 rgba(0,0,0,0.6);
+}
+h1{
+font-weight:700;
+font-size:50px;
+}
+span{
+position:relative;
+display:inline-block;
+}
+.underline{
+position:absolute;
+left:0;
+bottom:-25px;
+width:100%;
+height:30px;
+}
+.underline path{
+fill:none;
+stroke:var(--green);
+stroke-width:4;
+stroke-linecap:round;
+}
+em{
+color:var(--green);
+}
+h2{
+font-family:"Segoe UI";
+font-weight:700;
+color:var(--text-dim);
+}
+h3{
+font-family:Bahnschrift;
+font-weight:700;
+font-size:50px;
+}
+.image{
+display:flex;
+}
+.final{
+width:600px;
+max-width:100%;
+aspect-ratio:1/1;
+height:600px;
+border:1px solid var(--text-dim);
+border-top-left-radius:400px;
+border-bottom-left-radius:400px;
+overflow:hidden;
+transition:all 0.25s var(--ease);
+}
+.final img{
+width:100%;
+height:100%;
+object-fit:cover;
+transform:scale(1.4);
+transition:all 0.25s var(--ease);
+}
+.final:hover{
+border-color:var(--gold);
+}
+.final:hover img{
+transform:scale(1);
+border-color:var(--gold);
+}
+.des-process{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+.flag{
+width:550px;
+max-width:100%;
+height:auto;
+border-radius:40px;
+overflow:hidden;
+}
+.flag img{
+transition:all 0.25s var(--ease);
+}
+.flag:hover img{
+transform:scale(1.2);
+border-color:var(--gold);
+}
+.diff{
+width:800px;
+max-width:100%;
+height:auto;
+border-radius:40px;
+overflow:hidden;
+}
+.diff img{
+width:100%;
+height:100%;
+object-fit:cover;
+transform:scale(1.2);
+transition:all 0.25s var(--ease);
+}
+.diff:hover img{
+transform:scale(0.98);
+border-color:var(--gold);
+}
+.diff-flag{
+width:600px;
+max-width:100%;
+height:200px;
+border-radius:40px;
+overflow:hidden;
+}
+.diff-flag img{
+width:100%;
+height:100%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+object-fit:cover;
+transform:scale(1.1);
+transition:all 0.25s var(--ease);
+}
+.diff-flag:hover img{
+transform:scale(1);
+border-color:var(--gold);
+}
+.btn{
+background:var(--wine);
+border-radius:8px;
+color:var(--text);
+position:sticky;
+top:calc(100hv-80px);
+display:block;
+margin:0 auto;
+transition:all 0.25s var(--ease);
+}
+.btn:hover{
+transform:translateY(-2px);
+background-color:var(--green);
+cursor:pointer;
+}
+.last{
+text-align:center;
+}
+.reveal{
+opacity:0;
+transform:translateY(22px);
+transition:all 1.7s var(--ease);
+}
+.reveal.visible{
+opacity:1;
+transform:none;
+}
+.links a{
+transition:all 0.25s var(--ease);
+}
+.links:hover a{
+color:var(--line);
+text-decoration-line:underline;
+text-decoration-style:wavy;
+text-decoration-color:var(--line);
+cursor:pointer;
+}
+@media (max-width: 850px){
+  .des-process{ grid-template-columns: 1fr; }
+  .image{ flex-direction: column;}
+  .box1{order:1;}
+  .box2{order:3;}
+  .flag, .diff, .diff-flag{ width: 100%; }
+  .final{ order: 2; margin: 0 auto; }
+h1{ font-size: 34px;}
+a{display:none;}
+.btn{font-size:15px;}
+}
+</style>
+</head>
+<body>
+<nav>
+<div>
+<h1>Mark.K.Williams</h1>
+</div>
+<div class="links">
+<a href="#work.html">Work</a>
+</div>
+<div class="links"><a href="#projects.html">Projects</a></div>
+<div class="links"><a href="#contacts.html">Contact</a></div>
+<div>
+<a href="#form.html" class="btn">Get In Touch</a>
+</div>
+</nav>
+<section>
+<div>
+<h1><em>Bringing Color Back to A</em> <span>Monochromatic<svg class="underline" viewBox="0 0 300 50"><path d="M5 35 C70 5, 150 5,190 12 C220 18,180 35,202 35 C240 35,270 25,295 28"/></svg></span> <em>age</em></h1>
+<p>Remembering the 90's takes me back to a time where color proved the Earth was inhabited,<br>
+that we live, we breathe and we yearn for all that is more.<br>
+The art of expression, that is color.<br>
+That is my internal design compass.</p>
+</div>
+</section>
+<section>
+<div class="reveal">
+<div class="image">
+<div class="box1">
+<h2>Direction</h2>
+<p><h3>Interior <em>Design</em></h3></p>
+</div>
+<div class="box2">
+<p>"The warm encapsulation of my fanatica"<br>
+An elegant piece my clientel suggested but just between us, I've dreamt of doing this for years now<br>
+The deep timber tones grounding the room like the earth,<br>
+amber,green,blue and smoky glass panels introduce the vibrancy and complexity I associate with visual<br>
+African culture.Its distortion and fractured colors create movement, almost like looking through<br>
+different memories.<br>
+I call it a Mosaic of Mirrors, this piece made me look into myself in a different way.<br>
+Thats just how much my work means to me.</p>
+</div>
+<div class="final">
+<img src="image.jpeg" alt="Mosaic of mirrors">
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="reveal">
+<div>
+<h2>Behind the <em>Curtains</em></h2>
+<p>To bring this project to life I initially had to come up with the floor plan<br>
+my client explained what they expected, their wants, their dislikes and exactly how they would want it to feel<br>
+the process was magnificent and honestly one of my favorite pieces to have worked on.<br>
+I found myself excited, like my kiddy self while working on this piece.</p>
+</div>
+<div class="des-process">
+<div>
+<h3>The 3D Design</h3>
+<p>The 3D design provides a realistic visualization of the proposed living space,<br>
+ showing the spatial arrangement, furniture placement, lighting, finishes and overall atmosphere.<br>
+ It demonstrates how the dark timber, coloured textured-glass partitions,<br>
+ warm lighting and contemporary furniture work together to create a luxurious yet edgy Kenyan-inspired interior</p> 
+ </div>
+<div class="flag"><img src="3dplan.jpeg" alt="3D Design"></div>
+<div>
+<h3>The 2D Floor Plan</h3>
+<p>The 2D design communicates the technical arrangement of the space through a floor plan and elevations.<br>
+It shows the room dimensions, circulation, furniture positioning, stained-glass partition, TV wall, shelving and other fixed elements,<br>
+ providing a clear guide for construction and installation.</p>
+</div>
+<div class="flag"><img src="2dplan.jpeg" alt="2d floor plan"></div>
+<div>
+<h3>A Catalogue of Items Used</h3>
+<p>The catalogue identifies the main furniture, fixtures and decorative elements incorporated into the design.<br>
+It includes the sectional sofa, marble coffee table, area rug, stained-glass partitions, TV console,<br>
+ built-in shelving, decorative objects, lighting fixtures and accessories, together with their materials,<br>
+ finishes, dimensions and quantities.</p>
+ </div>
+<div class="diff"><img src="items.jpeg" alt="items used"></div>
+<div>
+<h3>Material & Color Palette</h3>
+<p>The material selection combines dark walnut wood, black metal, textured coloured glass, black marble,<br>
+ taupe/brown upholstery, wool-blend carpeting and antique-brass accents. Warm LED lighting and natural decorative elements soften the darker<br>
+ finishes, while the amber, green, blue and clear glass introduce colour and visual complexity, reinforcing the contemporary African identity of the space.</p>
+ </div>
+<div class="diff-flag"><img src="mc.jpeg" alt="Material n Colors"></div>
+</div>
+</div>
+</section>
+<section>
+<div class="reveal">
+<div>
+<h2>ABOUT</h2>
+<p>I have an unbridled joy for nature.<br>
+Having a little bit of outside-inside just puts a joy in me,<br>
+The Kenyan landscape, deep rooted colors<br>
+I love to mix the boho lifestyle with the ever modern minimalist<br>
+A contrarian you could call me, an I love every second of it.</p>
+</div>
+</div>
+</section>
+<footer>
+<div class="last">
+<p>© 2026 Mark.K.Williams Interior Design</p>
+<div>
+</footer>
+<script>
+const x=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{
+	if(entry.isIntersecting){
+	entry.target.classList.add('visible');
+	observer.unobserve(entry.target);
+	}
+});
+},{threshold:0.15});
+x.forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
+
+
+
