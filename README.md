@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mark K. Williams — Interior Design Portfolio
 
 A single-page portfolio site showcasing interior design work by **Mark K. Williams**, based in Kenya. Bold, earthy palette with a focus on African-inspired, edgy interiors and glass art.
@@ -56,3 +57,6 @@ open index.html   # or double-click it
 ## Built With
 
 Plain HTML & CSS — no frameworks, no dependencies.
+=======
+
+>>>>>>> 7ca4b7fa6b827b851cd432afd3dab13725f95883
