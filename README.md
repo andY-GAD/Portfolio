@@ -56,6 +56,3 @@ open index.html   # or double-click it
 ## Built With
 
 Plain HTML & CSS — no frameworks, no dependencies.
-=======
-
->>>>>>> 7ca4b7fa6b827b851cd432afd3dab13725f95883
