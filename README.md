@@ -8,7 +8,7 @@ A single-page portfolio site showcasing interior design work by **Mark K. Willia
 
 Once GitHub Pages is enabled (Settings → Pages), the site will be live at:
 
-**`https://<your-username>.github.io/<repo-name>/`**
+**`https://andY-GAD.github.io/Portfolio/`**
 
 ## About
 
