@@ -42,17 +42,6 @@ This site presents a curated look at Mark's design process and finished spaces �
 ├── mc.jpeg       # materials and colors
 └── README.md
 ```
-
-## Running Locally
-
-No install needed — just open `index.html` in a browser:
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-open index.html   # or double-click it
-```
-
 ## Built With
 
 Plain HTML & CSS — no frameworks, no dependencies.
